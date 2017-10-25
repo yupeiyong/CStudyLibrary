@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data structure and algorith
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkList", "LinkList\LinkList.vcxproj", "{BAEE20E4-61B6-4329-8C9E-986D3049F336}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack", "Stack\Stack.vcxproj", "{B1364C06-E7EC-4F83-A72E-6036DB0F8715}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -107,6 +109,22 @@ Global
 		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Release|x64.Build.0 = Release|x64
 		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Release|x86.ActiveCfg = Release|Win32
 		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Release|x86.Build.0 = Release|Win32
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Debug|Win32.Build.0 = Debug|Win32
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Debug|x64.ActiveCfg = Debug|x64
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Debug|x64.Build.0 = Debug|x64
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Debug|x86.ActiveCfg = Debug|Win32
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Debug|x86.Build.0 = Debug|Win32
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Release|Win32.ActiveCfg = Release|Win32
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Release|Win32.Build.0 = Release|Win32
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Release|x64.ActiveCfg = Release|x64
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Release|x64.Build.0 = Release|x64
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Release|x86.ActiveCfg = Release|Win32
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,5 +132,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{413CB268-D0B9-48E3-AF3D-DA8183DF7340} = {AF4833F0-1D7F-4E7B-9387-EF391983C40D}
 		{BAEE20E4-61B6-4329-8C9E-986D3049F336} = {AF4833F0-1D7F-4E7B-9387-EF391983C40D}
+		{B1364C06-E7EC-4F83-A72E-6036DB0F8715} = {AF4833F0-1D7F-4E7B-9387-EF391983C40D}
 	EndGlobalSection
 EndGlobal
