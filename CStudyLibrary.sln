@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CStudyLibrary", "CStudyLibrary\CStudyLibrary.vcxproj", "{100E5668-1665-40AF-983B-E5056830CC82}"
 EndProject
@@ -13,7 +13,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest1", "UnitTest2\Unit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data structure and algorithm", "Data structure and algorithm", "{AF4833F0-1D7F-4E7B-9387-EF391983C40D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Link", "Link\Link.vcxproj", "{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkList", "LinkList\LinkList.vcxproj", "{BAEE20E4-61B6-4329-8C9E-986D3049F336}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,26 +91,28 @@ Global
 		{6C1F8DD6-EEA6-4626-B1F1-DE9860E983C3}.Release|x64.Build.0 = Release|x64
 		{6C1F8DD6-EEA6-4626-B1F1-DE9860E983C3}.Release|x86.ActiveCfg = Release|Win32
 		{6C1F8DD6-EEA6-4626-B1F1-DE9860E983C3}.Release|x86.Build.0 = Release|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Debug|Win32.ActiveCfg = Debug|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Debug|Win32.Build.0 = Debug|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Debug|x64.ActiveCfg = Debug|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Debug|x86.ActiveCfg = Debug|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Debug|x86.Build.0 = Debug|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Release|Win32.ActiveCfg = Release|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Release|Win32.Build.0 = Release|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Release|x64.ActiveCfg = Release|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Release|x86.ActiveCfg = Release|Win32
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F}.Release|x86.Build.0 = Release|Win32
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Debug|Win32.Build.0 = Debug|Win32
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Debug|x64.ActiveCfg = Debug|x64
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Debug|x64.Build.0 = Debug|x64
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Debug|x86.ActiveCfg = Debug|Win32
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Debug|x86.Build.0 = Debug|Win32
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Release|Win32.ActiveCfg = Release|Win32
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Release|Win32.Build.0 = Release|Win32
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Release|x64.ActiveCfg = Release|x64
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Release|x64.Build.0 = Release|x64
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Release|x86.ActiveCfg = Release|Win32
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{413CB268-D0B9-48E3-AF3D-DA8183DF7340} = {AF4833F0-1D7F-4E7B-9387-EF391983C40D}
-		{7303D5B1-5EB1-4322-A6E3-5CD63A99E76F} = {AF4833F0-1D7F-4E7B-9387-EF391983C40D}
+		{BAEE20E4-61B6-4329-8C9E-986D3049F336} = {AF4833F0-1D7F-4E7B-9387-EF391983C40D}
 	EndGlobalSection
 EndGlobal
