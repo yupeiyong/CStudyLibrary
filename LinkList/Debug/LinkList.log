@@ -1,4 +1,3 @@
-﻿  stdafx.cpp
-  LinkList.cpp
+﻿  HeadDataLinkList.cpp
   LinkList.vcxproj -> F:\workspace\CStudyLibrary\Debug\LinkList.exe
   LinkList.vcxproj -> F:\workspace\CStudyLibrary\Debug\LinkList.pdb (Full PDB)

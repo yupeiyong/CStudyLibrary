@@ -83,24 +83,24 @@ void display(node_point head, void(*visit)(dataType data))
 		p = p->next;
 	}
 }
-int _tmain(int argc, _TCHAR* argv[])
-{
-	for (int i = 0; i < 30; i++) {
-		add(i, &head);
-	}
-	display(head, print);
-	printf("\r\n");
-	node_point node = find(15, head);
-	if (node != NULL) {
-		printf("成功找到元素15！\r\n");
-	}
-
-	printf("\r\n删除元素15\r\n");
-	remove(15, head);
-	display(head, print);
-
-	system("PAUSE");
-	return 0;
-}
+//int _tmain(int argc, _TCHAR* argv[])
+//{
+//	for (int i = 0; i < 30; i++) {
+//		add(i, &head);
+//	}
+//	display(head, print);
+//	printf("\r\n");
+//	node_point node = find(15, head);
+//	if (node != NULL) {
+//		printf("成功找到元素15！\r\n");
+//	}
+//
+//	printf("\r\n删除元素15\r\n");
+//	remove(15, head);
+//	display(head, print);
+//
+//	system("PAUSE");
+//	return 0;
+//}
 
 
