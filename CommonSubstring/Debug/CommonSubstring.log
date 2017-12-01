@@ -1,0 +1,12 @@
+﻿  CommonSubstring.cpp
+f:\workspace\cstudylibrary\commonsubstring\commonsubstring.cpp(19): warning C4018: “<”: 有符号/无符号不匹配
+f:\workspace\cstudylibrary\commonsubstring\commonsubstring.cpp(20): warning C4018: “<”: 有符号/无符号不匹配
+f:\workspace\cstudylibrary\commonsubstring\commonsubstring.cpp(22): warning C4018: “<”: 有符号/无符号不匹配
+f:\workspace\cstudylibrary\commonsubstring\commonsubstring.cpp(76): warning C4018: “<”: 有符号/无符号不匹配
+f:\workspace\cstudylibrary\commonsubstring\commonsubstring.cpp(80): warning C4018: “<”: 有符号/无符号不匹配
+f:\workspace\cstudylibrary\commonsubstring\commonsubstring.cpp(84): warning C4018: “<”: 有符号/无符号不匹配
+f:\workspace\cstudylibrary\commonsubstring\commonsubstring.cpp(85): warning C4018: “<”: 有符号/无符号不匹配
+f:\workspace\cstudylibrary\commonsubstring\commonsubstring.cpp(93): warning C4018: “<”: 有符号/无符号不匹配
+f:\workspace\cstudylibrary\commonsubstring\commonsubstring.cpp(94): warning C4018: “<”: 有符号/无符号不匹配
+  CommonSubstring.vcxproj -> F:\workspace\CStudyLibrary\Debug\CommonSubstring.exe
+  CommonSubstring.vcxproj -> F:\workspace\CStudyLibrary\Debug\CommonSubstring.pdb (Full PDB)
