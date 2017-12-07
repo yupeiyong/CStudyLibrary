@@ -51,7 +51,7 @@ int getlongestCommonSubstring(const char str1[], const char str2[])
 当i为0时，L[0,j]应该是等于L[-1,j-1]再加上s[0]和t[j]提供的值，但L[-1,j-1]本是无效，但可以视s[-1]是空字符也就变成了前面一种临界情况，
 这样就可知L[-1,j-1]==0，所以L[0,j]=(s[0]==t[j]?1:0)。对于j为0也是一样的，同样可得L[i,0]=(s[i]==t[0]?1:0)。
 
-1、边界
+1、边界(解空间，叶结点)
 	str1[i]!=str2[j]连续长度等于0
 2、子问题
 	str1[i]和str2[j]比较，和str1[i-1]与str2[j-1]比较是相同的子问题
@@ -73,7 +73,7 @@ int getlongestCommonSubstring2(const char str1[], const char str2[])
 	int**table;
 
 	table = (int**)malloc(sizeof(int*)*size1);
-	for (int i = 0; i<size1; i++)
+	for (int i = 0; i < size1; i++)
 	{
 		*(table + i) = (int*)malloc(sizeof(int)*size2);
 	}
@@ -82,16 +82,21 @@ int getlongestCommonSubstring2(const char str1[], const char str2[])
 		table[0][j] = (str1[0] == str2[j] ? 1 : 0);
 	}
 	for (int i = 1; i < size1; i++) {
+		table[i][0] = str1[i] == str2[0] ? 1 : 0;
 		for (int j = 1; j < size2; j++) {
-			table[i][0] = str1[i] == str2[j] ? 1 : 0;
 			if (str1[i] == str2[j]) {
 				table[i][j] = table[i - 1][j - 1] + 1;
 			}
+			else {
+				table[i][j] = 0;
+			}
 		}
 	}
+
 	int longest = 0;
 	for (int i = 0; i < size1; i++) {
 		for (int j = 0; j < size2; j++) {
+			printf("%d ", table[i][j]);
 			if (table[i][j] > longest) {
 				longest = table[i][j];
 			}
@@ -100,6 +105,8 @@ int getlongestCommonSubstring2(const char str1[], const char str2[])
 
 	return longest;
 }
+
+
 int main()
 {
 	/*
@@ -111,7 +118,7 @@ int main()
 	printf("暴力求最长公共字符串长度%d\n", longest1);
 
 	/*
-	2、动态规划求解 O(n的4次方)
+	2、动态规划求解 O(n的2次方)
 	*/
 	longest1 = getlongestCommonSubstring2(str1, str2);
 	printf("动态规划求最长公共字符串长度%d\n", longest1);
